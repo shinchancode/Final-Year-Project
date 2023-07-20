@@ -145,6 +145,8 @@ At first we trained five different LSTM for our five listed languages:
 
 ## Links
 
+Video Demo: [Link](https://youtu.be/bZ-6R31aQDo)
+
 Google Colab Link: [Link](https://colab.research.google.com/drive/1mwYv1CHU2RV2v0ylYM0EOTIaOXjqfSFK)
 
 Webpage link: [Link](https://colorful-dizzy-sturgeon.anvil.app/)
@@ -156,6 +158,15 @@ Paper published at IEEE (In Process): [Link](https://drive.google.com/drive/fold
 Final Year Project Report: [Link](https://drive.google.com/drive/folders/1e1C0zAe8y7XK-Ro7KnwDwueBWk3xzgXJ)
 
 ##
+
+This project was selected for the final round of 12th CSI InApp International Student Project awards 2023 with 8th position among 900+ teams.
+
+<div align="center" >
+  <img src="https://github.com/shinchancode/Final-Year-Project/blob/main/Images/Selection.png" height="350" width="750px" />
+</div>
+<div align="center" >
+  <img src="https://github.com/shinchancode/Final-Year-Project/blob/main/Images/mail%20selection.png" height="350" width="650px" />
+</div>
 
 ## Literature Survey done regarding this project
 | S.No | Title of Paper/Article |
