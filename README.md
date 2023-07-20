@@ -17,7 +17,7 @@ The project focuses on multilingual automatic multiple-choice question generatio
   
 - Now click on the [link](https://colorful-dizzy-sturgeon.anvil.app/) to give input paragraph. (Remember paragraph should be among these languages - English, Hindi, Korean, French and Chinese). And click generate MCQ.
 - It will take around 2 minutes to generate MCQs as distractor takes time to formulate and give relatable wrong options.
-- **IMPORTANT** - [You will get all resources regarding this project in the Link tab below.](https://github.com/shinchancode/Final-Year-Project/edit/main/README.md#links)
+- **IMPORTANT** - [You will get all resources regarding this project in the Link tab below.](https://github.com/shinchancode/Final-Year-Project#links)
 
 
 ### Download and process the wikidumps
