@@ -7,6 +7,19 @@ This repo is the source code for implemenation of this [base paper](https://acla
 
 The project focuses on multilingual automatic multiple-choice question generation to develop a robust and efficient system capable of automatically generating high-quality multiple-choice questions in multiple languages. Automating the process of multiple-choice question generation has various benefits. Automation significantly reduces the time and effort required to generate a substantial number of questions, allowing educators and trainers to focus on other essential aspects of teaching and content development.By using predefined rules and algorithms, the system can produce questions that adhere to specific guidelines, styles, and difficulty levels. This consistency helps maintain fairness and reliability in assessments, ensuring that all learners are evaluated on an equal basis.automating the process of multiple-choice question generation brings efficiency, scalability, standardization, customization, and improved learning experiences to educational institutions, trainers, and assessment organizations. It streamlines the question creation process, supports diverse question types and languages, and contributes to fair and effective assessments. Hence , the project aims to create a language agnostic model for creation of multiple choice questions in multiple languages.
 
+### Steps to run this project:
+- First open this [![Colab link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mwYv1CHU2RV2v0ylYM0EOTIaOXjqfSFK)
+- Run all cells, where we do the installation of libraries, train the LSTM model for each language (low level model), perform fine tuning on transformer which is common for all languages (high level model) and run distractor code where we have used WordNet for that.
+- To collaborate with front-end using AnVIL software. AnVIL provides a unified platform for creating and sharing data and performance analysis. Anvil Uplink used to link code to Anvil app from anywhere on the Internet Server uplinks make Python code behave like a server module.
+- Functions defined in uplink code can be called from the application using server.call
+  ### `!pip install anvil-uplink`
+- Connection established, application can be executed by providing input and getting MCQs in return.
+  
+- Now click on the [link](https://colorful-dizzy-sturgeon.anvil.app/) to give input paragraph. (Remember paragraph should be among these languages - English, Hindi, Korean, French and Chinese). And click generate MCQ.
+- It will take around 2 minutes to generate MCQs as distractor takes time to formulate and give relatable wrong options.
+- **IMPORTANT** - [You will get all resources regarding this project in the Link tab below.](https://github.com/shinchancode/Final-Year-Project/edit/main/README.md#links)
+
+
 ### Download and process the wikidumps
 
 First of all, you should download the wikipedia dumps from [https://dumps.wikimedia.org/](https://dumps.wikimedia.org/ ) , basicly, there are 10 languages used in this paper for pre-training.
@@ -142,6 +155,8 @@ Paper published at IEEE (In Process): [Link](https://drive.google.com/drive/fold
 
 Final Year Project Report: [Link](https://drive.google.com/drive/folders/1e1C0zAe8y7XK-Ro7KnwDwueBWk3xzgXJ)
 
+##
+
 ## Literature Survey done regarding this project
 | S.No | Title of Paper/Article |
 | ------- | --- |
@@ -177,4 +192,16 @@ Final Year Project Report: [Link](https://drive.google.com/drive/folders/1e1C0zA
 | 30 | [BERT-based distractor generation for Swedish reading comprehension questions using a small-scale dataset](https://aclanthology.org/2021.inlg-1.43/)|
 | 31 | [Automatic Generation of Multiple Choice Questions Using Wikipedia](https://www.researchgate.net/publication/290928426_Automatic_Generation_of_Multiple_Choice_Questions_Using_Wikipedia) |
 
+### Connect with me:
 
+[<img align="left" alt="codeSTACKr.com" width="22px" src="https://img.icons8.com/?size=512&id=n9d0Hm43JCPK&format=png" />][website]
+[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://img.icons8.com/fluency/48/twitter.png" />][twitter]
+[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" />][linkedin]
+[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" />][instagram]
+
+<br />
+
+[website]: https://shinchancode.github.io/3d-react-portfolio/
+[twitter]: https://twitter.com/CodeShinchan
+[instagram]: https://www.instagram.com/aarti.rathiii
+[linkedin]: https://www.linkedin.com/in/aarti-rathi-a6031814b/
